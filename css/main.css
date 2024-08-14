@@ -1,0 +1,352 @@
+.bi-x {
+  background-color: black;
+}
+.bi-x:hover {
+  box-shadow: 10px 10px 10px black;
+}
+
+.bi-facebook {
+  background-color: rgb(17, 17, 126);
+}
+.bi-facebook:hover {
+  box-shadow: 10px 10px 10px rgb(17, 17, 126);
+}
+
+.bi-instagram {
+  background-color: rgb(199, 39, 87);
+}
+.bi-instagram:hover {
+  box-shadow: 10px 10px 10px rgb(199, 39, 87);
+}
+
+.bi-youtube {
+  background-color: red;
+}
+.bi-youtube:hover {
+  box-shadow: 10px 10px 10px red;
+}
+
+.bi-tiktok {
+  background-color: rgb(88, 7, 163);
+}
+.bi-tiktok:hover {
+  box-shadow: 10px 10px 10px rgb(88, 7, 163);
+}
+
+/* RESET conf basica de mis estilos*/
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+/*fuente de google fonts*/
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*fuente de google fonts*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/*contenido del indice */
+h1 {
+  background-color: #4d211f;
+  text-align: center;
+  color: #fff;
+  font-size: 300%;
+  font-weight: bold;
+  padding: 2%;
+  margin-bottom: 0;
+}
+
+/*color de la navbar*/
+.menu-navegacion {
+  background-color: #1c160d;
+}
+
+/*home */
+.home-section p {
+  font-size: xx-large;
+  color: #860000;
+  margin: 5rem;
+  text-align: center;
+  font-style: italic;
+}
+
+/*seccion del video home*/
+.lanzamiento {
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+  margin: 1.5rem;
+}
+
+/*footer*/
+.footer {
+  background-color: #1c160d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: small;
+  margin-top: 10rem;
+}
+.footer--contenedor {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.footer--enlaces a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 100%;
+  padding: 0.5rem;
+  text-align: justify;
+}
+.footer--redes {
+  text-align: center;
+  margin: 1rem;
+}
+.footer p {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/*contenido de about us*/
+.about-dreamcatcher {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.about-dreamcatcher h2 {
+  font-size: xx-large;
+  color: #860000;
+  padding: 3rem;
+  text-align: center;
+  font-style: italic;
+}
+.about-dreamcatcher p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 2rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 0;
+}
+
+/*contenido de miembros*/
+.miembros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.miembros section {
+  margin: 2rem;
+  text-align: center;
+  width: 20rem;
+}
+.miembros img {
+  width: 20rem;
+}
+.miembros h2 {
+  font-weight: bold;
+  margin: 0.5rem;
+}
+.miembros p {
+  width: 20rem;
+  padding: 0.5rem;
+}
+
+/*contenido de discografia*/
+.seccion-albumes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.discos {
+  text-align: center;
+  width: 18rem;
+  margin-bottom: 2rem;
+}
+.discos img {
+  width: 18rem;
+}
+.discos h2 {
+  font-weight: bold;
+  margin: 1rem;
+}
+.discos p {
+  text-align: center;
+}
+
+/*contenido de fans*/
+.fan-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fan-info p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 0;
+}
+.fan-info img {
+  width: 18rem;
+  margin-bottom: 2.5rem;
+}
+.fan-info h2 {
+  font-weight: bold;
+  font-size: 250%;
+  text-align: center;
+  margin: 3rem;
+}
+
+.fan-lightstick-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fan-lightstick-info p {
+  text-align: justify;
+  line-height: 1.5;
+  margin-top: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-bottom: 0;
+}
+.fan-lightstick-info img {
+  width: 18rem;
+  margin-bottom: 2.5rem;
+}
+.fan-lightstick-info h2 {
+  font-weight: bold;
+  font-size: 250%;
+  text-align: center;
+  margin: 3rem;
+}
+
+/* Estilos para seccion de fanclub*/
+.fanclub-section h3 {
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+  margin: 4rem;
+}
+
+/* Estilos para el formulario de fans*/
+.formulario {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+.formulario label {
+  font-weight: bold;
+}
+.formulario input[type=text], .formulario textarea {
+  width: 95%;
+}
+.formulario textarea {
+  resize: vertical;
+}
+.formulario .boton {
+  background-color: #860000;
+  color: #fff;
+}
+
+/*MEDIA Q*/
+/* desktop a tablet*/
+@media (min-width: 481px) and (max-width: 780px) {
+  h1 {
+    font-size: 250%;
+  }
+  .home-section p {
+    font-size: x-large;
+  }
+  .lanzamiento {
+    font-size: 150%;
+  }
+  .about-dreamcatcher p {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .fanclub-section h3 {
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+    margin: 2rem;
+  }
+}
+/* a mobile*/
+@media (min-width: 320px) and (max-width: 480px) {
+  h1 {
+    font-size: 200%;
+  }
+  .home-section p {
+    font-size: large;
+    margin: 1rem;
+  }
+  .lanzamiento {
+    font-size: 100%;
+  }
+  .about-dreamcatcher p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 1rem;
+  }
+  .about-dreamcatcher h2 {
+    font-size: x-large;
+    padding: 2rem;
+  }
+  .fan-info p {
+    margin: 2rem;
+    margin-bottom: 0;
+  }
+  .fan-lightstick-info p {
+    margin: 2rem;
+    margin-bottom: 0;
+  }
+  .fanclub-section h3 {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    margin: 2rem;
+  }
+}
+/*fin de media querys*/
+
+/*# sourceMappingURL=main.css.map */
