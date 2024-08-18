@@ -15,21 +15,3 @@ function renderProductos(productos){
 }
   
 renderProductos(discos);    
-
-
-function agregarAlCarritoButton () {
-    addButton = document.querySelectorAll(".agregarAlCarrito")
-    addButton.forEach(button => {
-        button.onclick = (e) => {
-            const productId = e.currentTarget.id
-            const selectedProduct = productos.find(producto => producto.id == productId)
-
-            cartProducts.push(selectedProduct)
-            console.log(cartProducts)
-
-            localStorage.setItem("cartProducts", JSON.stringify(cartProducts))
-        }
-
-    })
-}
-

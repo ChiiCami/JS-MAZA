@@ -228,9 +228,7 @@ h1 {
 
 /*contenido de carrito*/
 .carrito-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: center;
   }
   .carrito-container h2 {
     font-size: xx-large;
@@ -239,14 +237,7 @@ h1 {
     text-align: center;
     font-style: italic;
   }
-  .carrito-container p {
-    text-align: justify;
-    line-height: 1.5;
-    margin-top: 2rem;
-    margin-left: 12rem;
-    margin-right: 12rem;
-    margin-bottom: 0;
-  }
+
   .carrito-container button{
     padding: 0.5rem;
     margin: 0.5rem;
@@ -255,6 +246,7 @@ h1 {
     color: #ffffff;
     background-color:#1c160d;
 }
+
 
 /*contenido de fans*/
 .fan-info {
