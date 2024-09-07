@@ -18,7 +18,6 @@
     <meta property="music:musician" content="https://music.youtube.com/channel/UC4RAA8DTjbTlmZy561mmq4Q?si=-fncyndHoxHt-yBJ">
     <title>Tienda - Discografía - Dreamcatcher</title>
     <!--JS-->
-    <script defer src="../javascript/productos.js"></script>
     <script defer src="../javascript/mostrarcarrito.js"></script>
     <script defer src="../javascript/carrito.js"></script>
     <!--Fuentes-->
@@ -29,6 +28,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--bs iconos-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--TOASTIFY-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="../css/main.css">
 </head>
@@ -51,7 +52,7 @@
                             <a class="nav-link" aria-current="page" href="../index.html">Home Tienda</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
-                            <a class="nav-link d-flex align-items-center" href="./pages/carrito.html">Carrito
+                            <a class="nav-link d-flex align-items-center" href="./carrito.html">Carrito
                                 <i class="bi bi-cart-fill ms-2"></i>
                                 <span class="numero-carrito" id="cantidad-carrito"></span>
                             </a>
@@ -66,10 +67,10 @@
         <h1>Carrito de compras</h1>
         <div class="seccion-albumes" id="productos-container"></div>
         <div class="carrito-container"  id="totales">
-            <p>Total unidades: <span id="unidades">0</span></p>
-            <p>Total precio: <span id="precio">0</span></p>
-            <button disabled>Comprar</button>
-            <button disabled>Reiniciar carrito</button>
+            <p>Total unidades: <span id="unidades"></span></p>
+            <p>Total precio: U$D <span id="precio"></span></p>
+            <button id="boton-comprar">Comprar</button>
+            <button id="boton-reiniciar">Reiniciar carrito</button> 
         </div>
     </main>
     <footer>
@@ -99,8 +100,12 @@
             <p>Creado con ❤️ por Camila Maza</p>
         </div>
     </footer>
- <!--BS CIERRE-->
+    <!--BS CIERRE-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
+    <!--SWEETALERT-->
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--TOASTIFY-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
